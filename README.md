@@ -4,6 +4,12 @@ Sharetribe 是这个 https://www.sharetribe.com/
 以下是学习这个开源平台做的笔记     
 
 <br/>
+## 时间
+这个笔记从 2016 年 9 月 10 号开始记录起。  
+当前 Sharetribe 版本 5.11.0 （根目录下有个文件叫做 VERSION，里面只有一行文字，就是版本号）  
+笔记当然是基于这个版本，所以如果你发现这里写的笔记和代码不一样，以官方代码为准。
+
+<br/>
 ## 什么是 Sharetribe
 https://www.sharetribe.com/   
 这是个买卖的平台， 
@@ -31,6 +37,13 @@ MySQL
 
 服务器：不清楚，可能是 AWS  
 图片托管：不清楚，可能是 CloudFront  
+
+
+<br/>
+## Model
+用户的 Model 是 person. 并没有 account 或者 user 这样的 model
+
+
 
 <br/>
 ## 小备注
