@@ -25,6 +25,9 @@ Paypal, 就这一种没了
 
 <br/>
 ## 公司信息
+公司地址在 [芬兰，赫尔辛基](https://www.google.com/maps/place/Helsinki,+Finland/@58.7019284,16.6558103,4.79z/data=!4m5!3m4!1s0x46920bc796210691:0xcd4ebd843be2f763!8m2!3d60.1698557!4d24.938379)   
+资料来源是 job 页面，原话：Being located in Helsinki, Finland is a big plus, but if you’re a great match, we will consider remote working.
+
 
 <br/>
 ## 基于 Sharetribe 的网站有（不完全列表）    
