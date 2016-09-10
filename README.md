@@ -1,16 +1,18 @@
-# Sharetribe 笔记
+### below are Chinese language
+# Sharetribe 笔记 
 Sharetribe 是这个 https://www.sharetribe.com/   
 开源代码的地址是这里： https://github.com/sharetribe/sharetribe   
 以下是学习这个开源平台做的笔记。     
-
+除了 Readme.md 之外的文件不用看，那是没写好，写好的话会把链接放到下面方便你点开。
 <br/>
 ## 目录
+（暂时为空）
 
 <br/>
-## 时间
+## 时间 （2016 年 9 月 10 号）
 笔记从 2016 年 9 月 10 号开始记录起。  
-当前 Sharetribe 版本 5.11.0 （根目录下有个文件叫做 VERSION，里面只有一行文字，就是版本号）  
-笔记当然是基于这个版本，所以如果你发现这里写的笔记和代码不一样，以官方代码为准。
+Sharetribe 版本是 5.11.0 （根目录下有个文件叫做 VERSION，里面只有一行文字，就是版本号）  
+笔记基于这个版本，所以如果发现笔记和代码不一样，以官方代码为准。
 
 <br/>
 ## 什么是 Sharetribe
@@ -27,8 +29,8 @@ Paypal, 就这一种没了
 ## 公司信息
 公司地址在 [芬兰，赫尔辛基](https://www.google.com/maps/place/Helsinki,+Finland/@58.7019284,16.6558103,4.79z/data=!4m5!3m4!1s0x46920bc796210691:0xcd4ebd843be2f763!8m2!3d60.1698557!4d24.938379)   
 资料来源是 job 页面，原话：Being located in Helsinki, Finland is a big plus, but if you’re a great match, we will consider remote working.  
-
-[团队](https://www.sharetribe.com/team.html)  
+芬兰语是主要语言  
+[团队列表](https://www.sharetribe.com/team.html)  - 15个人，全是男的
 
 
 <br/>
