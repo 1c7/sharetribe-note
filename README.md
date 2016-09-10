@@ -1,7 +1,7 @@
 # Sharetribe 笔记
 Sharetribe 是这个 https://www.sharetribe.com/   
 开源代码的地址是这里： https://github.com/sharetribe/sharetribe   
-以下是在使用这个开源平台过程做的记录    
+以下是学习这个开源平台做的笔记     
 
 <br/>
 ## 什么是 Sharetribe
@@ -21,8 +21,8 @@ https://www.foodforage.com.au/
 
 <br/>
 ## Tech Stack 技术栈
-官方的 readme 里面只是简单说了下安装和配置，和一些基本的依赖。  
-没有列清楚技术栈。所以我这里一边看代码学习一边列出来技术栈  
+官方的 readme 里简单说了安装，配置，和一些基本的依赖。  
+没列清楚技术栈。所以我一边看代码学习一边列技术栈  
 
 Ruby 2.3.1  
 Ruby on Rails 4.2.7  
