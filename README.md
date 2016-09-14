@@ -102,10 +102,16 @@ Reference: https://github.com/sizzlelab/kassi
 
 <br/>
 # Code  
-Below is what I think, not 100% correct,     
+
+### 1. Below is what I think, not 100% correct
 because I don't work for Sharetribe. I am not team member.     
 I am just guessing and testing and poking around, trying to understand how they work, 
 some of my guess may be wrong.    
+
+### 2. Goal of Code Section  
+Help you understand the big picture of Sharetribe.  
+Here is not gonna write all these little detail, Ruby grammar, Think like that.  
+how many `module` there are (for example: user info, paypal payment, order info, list item, customize marketplace)
 
 <br/>
 ## Model (app/models/)
@@ -152,6 +158,8 @@ some of my guess may be wrong.
 I don't work for Sharetribe, I have a projet(not my idea) that are base on Sharetribe     
 So I have to learn about how Sharetribe work, How to customize it.      
 I am Ruby on Rails developer for 8 month now, That help.  
+
+(I am living in GuangZhou, China, I am 21 years old(1995))
 
 ---
 
