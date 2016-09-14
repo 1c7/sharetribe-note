@@ -1,65 +1,66 @@
-### below are Chinese language
-# Sharetribe 笔记 
-Sharetribe 是这个 https://www.sharetribe.com/   
-开源代码的地址是这里： https://github.com/sharetribe/sharetribe   
-以下是学习这个开源平台做的笔记。     
-除了 Readme.md 之外的文件不用看，那是没写好，写好的话会把链接放到下面方便你点开。
-<br/>
-## 目录
-（暂时为空）
+# Sharetribe Note 
+Sharetribe is this: https://www.sharetribe.com/   
+Open source code is here： https://github.com/sharetribe/sharetribe   
+
+Below are note I take when I am learning how sharetribe work.
+
+File beside `readme.md` you don't have to look inside, because these are unfinished note.  
+I would put link down below once it finished, so you don't have to worry about it.  
 
 <br/>
-## 时间 （2016 年 9 月 10 号）
-笔记从 2016 年 9 月 10 号开始记录起。  
-Sharetribe 版本是 5.11.0 （根目录下有个文件叫做 VERSION，里面只有一行文字，就是版本号）  
-笔记基于这个版本，所以如果发现笔记和代码不一样，以官方代码为准。
+## Sharetribe Version (5.11)
+(2016/Septmber/14) Sharetribe Version is 5.11   
+All these note down below are base on 5.11  
+if you find any inconsistent between Sharetribe Code and This note, Code is always right.
 
 <br/>
-## 什么是 Sharetribe
+## What is Sharetribe?
 https://www.sharetribe.com/   
-这是个买卖的平台， 
+A platform 
 但是和淘宝之类的不一样, 代码开源，MIT 协议，就是说拿代码去商用和闭源是 OK 的。   
 
 <br/>
-## 支付方式
-Paypal, 就这一种没了  
+## How to pay?(on Sharetribe)
+Paypal    
 
 
 <br/>
-## 公司信息
-公司地址在 [芬兰，赫尔辛基](https://www.google.com/maps/place/Helsinki,+Finland/@58.7019284,16.6558103,4.79z/data=!4m5!3m4!1s0x46920bc796210691:0xcd4ebd843be2f763!8m2!3d60.1698557!4d24.938379)   
-资料来源是 job 页面，原话：Being located in Helsinki, Finland is a big plus, but if you’re a great match, we will consider remote working.  
+## Short description about company
+Company locate at [Helsinki, Finland](https://www.google.com/maps/place/Helsinki,+Finland/@58.7019284,16.6558103,4.79z/data=!4m5!3m4!1s0x46920bc796210691:0xcd4ebd843be2f763!8m2!3d60.1698557!4d24.938379)   
 芬兰语是主要语言  
-[团队列表](https://www.sharetribe.com/team.html)  - 15个人，全是男的
+[Team](https://www.sharetribe.com/team.html)  - 15个人，全是男的
 
 
 <br/>
-## 基于 Sharetribe 的网站有（不完全列表）    
+## Website that base on Sharetribe
 http://www.studiotime.io/  - 按天/小时租用音乐工作室  
 https://www.drivevinty.com/     
 https://www.cyclelifehq.com/     
 https://www.foodforage.com.au/    
 
+Reference: 
+
 
 <br/>
-## Tech Stack 技术栈
-官方的 readme 里简单说了安装，配置，和一些基本的依赖。  
-没列清楚技术栈。所以我一边看代码学习一边列技术栈  
+## Tech Stack
+- Ruby 2.3.1  
+- Ruby on Rails 4.2.7  
 
-Ruby 2.3.1  
-Ruby on Rails 4.2.7  
-Gem: Devise(做邮箱登录), Omniauth-facebook(做 Facebook 登录)  
-MySQL  
-所见即所得编辑器用的是 Mercury
-
-自动部署： 看起来像是用了 Cap
-服务器：不清楚，可能是 AWS  
-图片托管：不清楚，可能是 CloudFront  
+- MySQL  
+- Editor is using Mercury  
+- Deploy: custom script (not using Mina or Cap3)  
+- Server: Heroku (BaaS)  
+- Image: Amazon S3  
+- Gem: Devise(for Email/Username Signup/Login), 
+    Omniauth-facebook(做 Facebook 登录)  
 
 
 <br/>
 ## Model
-用户的 Model 是 person. （并没有 account 或者 user 这样的 model）
+
+- Model for store user info is `person` (Table name is `people`) (app/models/person.rb)
+  not using any model name(`user` or `account`)
+
 
 ## Controller
 
