@@ -110,8 +110,8 @@ some of my guess may be wrong.
 
 ### 2. Goal of Code Section  
 Help you understand the big picture of Sharetribe.  
-Here is not gonna write all these little detail, Ruby grammar, Think like that.  
-how many `module` there are (for example: user info, paypal payment, order info, list item, customize marketplace)
+Here is **not** gonna write all these little detail.  
+the format below may change.   
 
 <br/>
 ## Model (app/models/)
