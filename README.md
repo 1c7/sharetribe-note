@@ -44,18 +44,23 @@ People there speak Finnish
 
 
 <br/>
-## Website that base on Sharetribe
-http://www.studiotime.io/  - 按天/小时租用音乐工作室  
-https://www.drivevinty.com/     
-https://www.cyclelifehq.com/     
-https://www.foodforage.com.au/    
+## Website that base on Sharetribe    
+http://www.studiotime.io/  - rent music studios    
+https://www.haatori.fi/ - pre-owned wedding dresses    
+https://www.thequiver.com/ - rent surf board     
+https://www.drivevinty.com/ - rent old car     
+https://www.cyclelifehq.com/ - Bike & Bike tours    
+https://www.foodforage.com.au/ - Food     
+http://kamerakit.se/ - Camera     
+https://app.thefoodcorridor.com/ - Food     
+https://hengerdeling.no/nb?view=list - Car? this is not english..      
 
-Reference: 
-[Offcial Website: Success Story](https://www.sharetribe.com/stories.html)  
+Reference:     
+[Offcial Website: Success Story](https://www.sharetribe.com/stories.html)    
 [Sharetribe Community: Marketplace Showroom](https://www.sharetribe.com/community/t/marketplace-showroom-are-you-hosting-an-open-source-sharetribe-marketplace-advertise-it-here/51/1)
 
 <br/>
-## Tech Stack
+## Tech Stack (not fully comfirm by Sharetribe Team, yet.)
 - Ruby 2.3.1  
 - Ruby on Rails 4.2.7  
 - MySQL  
@@ -64,8 +69,8 @@ Reference:
 - Server: Heroku (BaaS)  
 - Image: Amazon S3  
 - Notable Gem: 
-    -  Devise(for Email/Username Signup/Login), 
-    -  Omniauth-facebook(做 Facebook 登录)  
+    -  devise | for Email/Username Signup/Login
+    -  omniauth-facebook | Third party login: Facebook
 
 Reference: Code, Readme, and [This Github Issue comment](https://github.com/sharetribe/sharetribe/issues/2525#issuecomment-246609666)
 
