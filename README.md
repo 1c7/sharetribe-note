@@ -67,10 +67,16 @@ Reference:
 - "what you see is what you get" Editor [Mercury](http://jejacks0n.github.io/mercury/)  
 - Deploy: Custom Script (not using Mina or Cap3)  
 - Server: Heroku (BaaS)  
-- Image: Amazon S3  
+- Image Hosting: Amazon S3  
 - Notable Gem: 
     -  devise | for Email/Username Signup/Login
     -  omniauth-facebook | Third party login: Facebook
+    -  haml | easier to write HTML
+    -  mysql2 | because sharetribe using mysql
+    -  paperclip | image upload
+    -  passenger | rails server
+    -  react_on_rails | yep, react
+    -  factory_girl, capybara, rspec-rails, cucumber-rails, selenium-webdriver | for test
 
 Reference: Code, Readme, and [This Github Issue comment](https://github.com/sharetribe/sharetribe/issues/2525#issuecomment-246609666)
 
