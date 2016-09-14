@@ -3,13 +3,17 @@
 
 <br/>
 ## Table of Contents
-  1. [What is Sharetribe?](#What is Sharetribe?)
+  1. [What is Sharetribe?](#What-is-Sharetribe?)
   1. [This Note base on What Version of Sharetribe? Answer: 5.11](#This Note base on What Version of Sharetribe? Answer: 5.11)
-  1. [How to pay? (on Sharetribe)](#How to pay? (on Sharetribe))
-  1. [About Company](#About Company)
-  2. [Website that base on Sharetribe](#Website that base on Sharetribe)
-  3. [Tech Stack](#Tech Stack)
-  4. [Code](#Code)
+  1. [How to pay? (on Sharetribe)](#How-to-pay?-(on-Sharetribe))
+  1. [About Company](#About-Company)
+  1. [Website that base on Sharetribe](#Website-that-base-on-Sharetribe)
+  1. [Tech Stack](#Tech-Stack)
+  1. [Sidenote](#sidenote)
+  1. [Code](#Code)
+      2. Model
+      3. Controller
+      4. View
 
 <br/>
 ## What is Sharetribe?
@@ -67,7 +71,7 @@ Reference: Code, Readme, and [This Github Issue comment](https://github.com/shar
 
 
 <br/>
-### Sidenote
+## Sidenote
 Sharetribe's old name is "Kassi",  
 That's why you saw 
 ```Ruby 
@@ -76,6 +80,9 @@ Kassi::Application.routes.draw do
 in `config/routes.rb` file.    
 Reference: https://github.com/sizzlelab/kassi     
 
+
+<br/>
+# Code  
 
 <br/>
 ## Model  
