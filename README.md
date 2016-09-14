@@ -4,7 +4,7 @@
 <br/>
 ## Table of Contents
   1. [What is Sharetribe?](#what-is-sharetribe?)
-  1. [This Note base on What Version of Sharetribe? Answer: 5.11](#This Note base on What Version of Sharetribe? Answer: 5.11)
+  1. [This Note base on What Version of Sharetribe? Answer: 5.11](#this-note-base-on-what-version-of-sharetribe-answer-511)
   1. [How to pay? (on Sharetribe)](#how-to-pay?-(on-sharetribe))
   1. [About Company](#about-company)
   1. [Website that base on Sharetribe](#Website-that-base-on-Sharetribe)
@@ -108,9 +108,9 @@ I am just guessing and testing and poking around, trying to understand how they 
 <br/>
 ## Controller
   
-  - application_controller - (600 line), a lot function
+  - application_controller (600 line) - a lot function
   
-  - errors_controller - (80 line) of course for error, like 404, 500, 410 and so on 
+  - errors_controller (80 line) - for error, like 404, 500, 410 and so on 
   
   - homepage_controller - (300 line) for home page
 
