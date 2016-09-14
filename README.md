@@ -11,9 +11,9 @@
   1. [Tech Stack](#tech-stack)
   1. [Sidenote](#sidenote)
   1. [Code](#code)
-      2. Model
-      3. Controller
-      4. View
+      * Model
+      * Controller
+      * View
 
 <br/>
 ## What is Sharetribe?
@@ -95,18 +95,20 @@ Reference: https://github.com/sizzlelab/kassi
 
 <br/>
 # Code  
-below is what I think, not 100% correct, because I don't work for Sharetribe. I am not team member.   
-I am just guessing and testing and poking around, trying to understand how they work, some of my guess may be wrong.  
+Below is what I think, not 100% correct,     
+because I don't work for Sharetribe. I am not team member.     
+I am just guessing and testing and poking around, trying to understand how they work, 
+some of my guess may be wrong.    
 
 <br/>
-## Model  
+## Model (app/models/)
 
 - User information:  model for store user info is `person` (Table name is `people`) (app/models/person.rb)  
   there are no model name `user` or `account`
 
 
 <br/>
-## Controller
+## Controller (app/controllers/)
   
   - application_controller (600 line) - a lot function
   
