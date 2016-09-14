@@ -3,22 +3,22 @@
 
 <br/>
 ## Table of Contents
-  1. [What is Sharetribe?](#What-is-Sharetribe?)
+  1. [What is Sharetribe?](#what-is-sharetribe?)
   1. [This Note base on What Version of Sharetribe? Answer: 5.11](#This Note base on What Version of Sharetribe? Answer: 5.11)
-  1. [How to pay? (on Sharetribe)](#How-to-pay?-(on-Sharetribe))
-  1. [About Company](#About-Company)
+  1. [How to pay? (on Sharetribe)](#how-to-pay?-(on-sharetribe))
+  1. [About Company](#about-company)
   1. [Website that base on Sharetribe](#Website-that-base-on-Sharetribe)
-  1. [Tech Stack](#Tech-Stack)
+  1. [Tech Stack](#tech-stack)
   1. [Sidenote](#sidenote)
-  1. [Code](#Code)
+  1. [Code](#code)
       2. Model
       3. Controller
       4. View
 
 <br/>
 ## What is Sharetribe?
-Sharetribe is this: https://www.sharetribe.com/   
-Open Source Code is here： https://github.com/sharetribe/sharetribe   
+Sharetribe is this:       https://www.sharetribe.com/   
+Open Source Code is here: https://github.com/sharetribe/sharetribe   
 
 [About](https://www.sharetribe.com/about.html)  
 [Team](https://www.sharetribe.com/team.html)  
@@ -44,7 +44,8 @@ People there speak Finnish
 
 
 <br/>
-## Website that base on Sharetribe    
+## Website that base on Sharetribe
+Not a complete list, because even sharetribe offcial don't know exactly how many website base on sharetribe  
 http://www.studiotime.io/  - rent music studios    
 https://www.haatori.fi/ - pre-owned wedding dresses    
 https://www.thequiver.com/ - rent surf board     
@@ -94,29 +95,59 @@ Reference: https://github.com/sizzlelab/kassi
 
 <br/>
 # Code  
+below is what I think, not 100% correct, because I don't work for Sharetribe. I am not team member.   
+I am just guessing and testing and poking around, trying to understand how they work, some of my guess may be wrong.  
 
 <br/>
 ## Model  
 
-- Model for store user info is `person` (Table name is `people`) (app/models/person.rb)  
-  not using any model name(`user` or `account`)
+- User information:  model for store user info is `person` (Table name is `people`) (app/models/person.rb)  
+  there are no model name `user` or `account`
 
 
+<br/>
 ## Controller
+  
+  - application_controller - (600 line), a lot function
+  
+  - errors_controller - (80 line) of course for error, like 404, 500, 410 and so on 
+  
+  - homepage_controller - (300 line) for home page
+
+  - i18n_controller - (10 line) only 1 function: change language and redirect, that's it
+
+  - landing_page_controller - (300 line) landing page
+  
+  - design_controller - (4 line) show design compoment 
 
 
 
 <br/>
-### About 1c7 (the guy who wrote this)   
+## Database Table (db/schema.rb)
+
+  - people | store user infomation, include: given_name, family_name, email, password, so on
+  
+  - communities | very import table, 85 field.
+  
+  - locations | lat, lng, string address
+  
+  - messages | I think that's how 'inbox' work
+
+  - follower_relationships  | A follow B
+
+
+<br/>
+<br/>
+## About 1c7 (the guy who wrote this)   
 
 I don't work for Sharetribe, I have a projet(not my idea) that are base on Sharetribe     
 So I have to learn about how Sharetribe work, How to customize it.      
 I am Ruby on Rails developer for 8 month now, That help.  
 
-Below are note I take when I am learning how sharetribe work.
+---
 
 File beside `readme.md` you don't have to look inside, because these are unfinished note.  
-I would put link down below once it finished, so you don't have to worry about it.  
+I would put link in readme once it finished, so you don't have to worry about it.  
 
 (I am not native English speaker, if you spot any grammar error, Please point out help me improve, Thanks)
 
