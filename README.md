@@ -1,37 +1,42 @@
-# Sharetribe Note 
-Sharetribe is this: https://www.sharetribe.com/   
-Open Source Code is here： https://github.com/sharetribe/sharetribe   
-
-Below are note I take when I am learning how sharetribe work.
-
-File beside `readme.md` you don't have to look inside, because these are unfinished note.  
-I would put link down below once it finished, so you don't have to worry about it.  
-
-(I am not native English speaker, if you spot any grammar error, Please point out help me improve, Thanks)
+# Here is some note about Sharetribe 
+(I start this at Sep/10/2016)  
 
 <br/>
-## Sharetribe Version (5.11)
-(2016/Septmber/14) Sharetribe Version is 5.11   
-All these note down below are base on 5.11  
-if you find any inconsistent between Sharetribe Code and This note, Code is always right.
+## Table of Contents
+  1. [What is Sharetribe?](#What is Sharetribe?)
+  1. [This Note base on What Version of Sharetribe? Answer: 5.11](#This Note base on What Version of Sharetribe? Answer: 5.11)
+  1. [How to pay? (on Sharetribe)](#How to pay? (on Sharetribe))
+  1. [About Company](#About Company)
+  2. [Website that base on Sharetribe](#Website that base on Sharetribe)
+  3. [Tech Stack](#Tech Stack)
+  4. [Code](#Code)
 
 <br/>
 ## What is Sharetribe?
-https://www.sharetribe.com/   
+Sharetribe is this: https://www.sharetribe.com/   
+Open Source Code is here： https://github.com/sharetribe/sharetribe   
+
 [About](https://www.sharetribe.com/about.html)  
 [Team](https://www.sharetribe.com/team.html)  
 A Open Source Marketplace, under MIT license.   
 (MIT license mean you can modify code, sell these code. only thing you have to do is keep licence file.)   
 
+
 <br/>
-## How to pay?(on Sharetribe)
+## This Note base on What Version of Sharetribe? Answer: 5.11
+All these note down below are base on 5.11  
+if you find any inconsistent between Sharetribe Code and This note, Code is always right.
+
+
+<br/>
+## How to pay? (on Sharetribe)
 Paypal    
 
 
 <br/>
-## Short description about company
+## About Company
 Company locate at [Helsinki, Finland](https://www.google.com/maps/place/Helsinki,+Finland/@58.7019284,16.6558103,4.79z/data=!4m5!3m4!1s0x46920bc796210691:0xcd4ebd843be2f763!8m2!3d60.1698557!4d24.938379)   
-people there speck Finnish 
+People there speak Finnish 
 
 
 <br/>
@@ -60,6 +65,18 @@ Reference:
 
 Reference: Code, Readme, and [This Github Issue comment](https://github.com/sharetribe/sharetribe/issues/2525#issuecomment-246609666)
 
+
+<br/>
+### Sidenote
+Sharetribe's old name is "Kassi",  
+That's why you saw 
+```Ruby 
+Kassi::Application.routes.draw do
+``` 
+in `config/routes.rb` file.    
+Reference: https://github.com/sizzlelab/kassi     
+
+
 <br/>
 ## Model  
 
@@ -72,19 +89,18 @@ Reference: Code, Readme, and [This Github Issue comment](https://github.com/shar
 
 
 <br/>
-### Sidenote
-Sharetribe's old name is "Kassi",  
-That's why you saw `Kassi::Application.routes.draw do` in 'config/routes.rb' file.    
-Reference: https://github.com/sizzlelab/kassi     
-
-
-<br/>
 ### About 1c7 (the guy who wrote this)   
 
 I don't work for Sharetribe, I have a projet(not my idea) that are base on Sharetribe     
 So I have to learn about how Sharetribe work, How to customize it.      
 I am Ruby on Rails developer for 8 month now, That help.  
 
+Below are note I take when I am learning how sharetribe work.
+
+File beside `readme.md` you don't have to look inside, because these are unfinished note.  
+I would put link down below once it finished, so you don't have to worry about it.  
+
+(I am not native English speaker, if you spot any grammar error, Please point out help me improve, Thanks)
 
 
 
