@@ -19,10 +19,11 @@
 <br/>
 ## What is Sharetribe?
 Sharetribe is this:       https://www.sharetribe.com/   
+[About](https://www.sharetribe.com/about.html)  
+[Team](https://www.sharetribe.com/team.html) 
+
 Open Source Code is here: https://github.com/sharetribe/sharetribe   
 
-[About](https://www.sharetribe.com/about.html)  
-[Team](https://www.sharetribe.com/team.html)  
 A Open Source Marketplace, under MIT license.   
 (MIT license mean you can modify code, sell these code. only thing you have to do is keep licence file.)   
 
@@ -66,6 +67,7 @@ Reference:
 - Ruby 2.3.1  
 - Ruby on Rails 4.2.7  
 - MySQL  
+- React + jQuery
 - "what you see is what you get" Editor [Mercury](http://jejacks0n.github.io/mercury/)  
 - Deploy: Custom Script (not using Mina or Cap3)  
 - Server: Heroku (BaaS)  
@@ -80,6 +82,10 @@ Reference:
     -  react_on_rails | yep, react
     -  factory_girl, capybara, rspec-rails, cucumber-rails, selenium-webdriver | for test
 
+Not really sure they are using: Spinhx (I don't know how this thing work)  
+
+
+<br/>
 Reference: Code, Readme, and [This Github Issue comment](https://github.com/sharetribe/sharetribe/issues/2525#issuecomment-246609666)
 
 
