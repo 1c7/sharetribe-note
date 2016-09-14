@@ -1,5 +1,6 @@
 # Here is some note about Sharetribe 
 (I start this at Sep/10/2016)  
+![image](https://cloud.githubusercontent.com/assets/1804755/18500223/29eac7f8-7a78-11e6-8310-ee605af4c528.png)
 
 <br/>
 ## Table of Contents
