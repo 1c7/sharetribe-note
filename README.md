@@ -152,22 +152,3 @@ the format below may change.
 
 
 <br/>
-<br/>
-## About 1c7 (the guy who wrote this)   
-
-I don't work for Sharetribe, I have a projet(not my idea) that are base on Sharetribe     
-So I have to learn about how Sharetribe work, How to customize it.      
-I am Ruby on Rails developer for 8 month now, That help.  
-
-(I am living in GuangZhou, China, I am 21 years old(1995))
-
----
-
-File beside `readme.md` you don't have to look inside, because these are unfinished note.  
-I would put link in readme once it finished, so you don't have to worry about it.  
-
-(I am not native English speaker, if you spot any grammar error, Please point out help me improve, Thanks)
-
-
-
-
